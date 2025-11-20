@@ -1,6 +1,4 @@
 # Ex. No: 11 – Packet Tracer: Verify IPv4 and IPv6 Addressing
-# Date: ___________
-________________________________________<br>
 # Objective
 To configure, verify, and test dual-stack (IPv4 and IPv6) addressing on a Cisco Packet Tracer network topology.<br>
 Tasks:<br>
@@ -15,7 +13,8 @@ ________________________________________<br>
 • Copper straight-through and Serial DCE/DTE cables<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1–R2–R3 in series and PCs connected to edge routers.)<br>
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 144734" src="https://github.com/user-attachments/assets/82033afd-feef-487d-b01f-306fdede7d32" />
+
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -54,7 +53,7 @@ Observe the hops across R1 → R2 → R3.<br>
 4.	tracert 2001:db8:1:4::a<br>
 Record IPv6 path hops.<br>
 ________________________________________<br>
-# Commands Used (Summary)
+# Commands Used 
 Purpose	Command<br>
 Check IPv4 details	ipconfig /all<br>
 Check IPv6 details	ipv6config /all<br>
@@ -65,10 +64,11 @@ ________________________________________<br>
 • Successful ping replies indicate proper dual-stack connectivity.<br>
 • Trace route confirms correct path through routers R1–R2–R3.<br>
 ________________________________________
-# Output (Attach Screenshots)
-• ipconfig /all and ipv6config /all output for both PCs.<br>
-• Ping results for IPv4 and IPv6.<br>
-• Traceroute results showing intermediate hops.<br>
+# Output 
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 145420" src="https://github.com/user-attachments/assets/8173b449-46a7-430c-933e-4b741e0c1b57" />
+
+
+
 ________________________________________
 # Result
 The dual-stack IPv4 and IPv6 addressing scheme was successfully verified. Both addressing types achieved full connectivity between PC1 and PC2 through multiple routers, confirming correct configuration and routing.
